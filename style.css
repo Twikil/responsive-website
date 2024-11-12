@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header, nav, main {
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  header {font-size: 14px;}
+  main{font-size: 14px;}
+  
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  header{font-size: 16px;}
+  main{font-size: 16px;}
+  
+}
+
+
+@media only screen and (min-width: 1025px) {
+  header{font-size: 20px;}
+  main{font-size: 20px;}
+  
+}
+@media :hover
